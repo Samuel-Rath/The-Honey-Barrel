@@ -1,5 +1,3 @@
-// content_scripts/scraper.js
-
 import { SITE_SELECTORS } from '../selectors/site-selectors.js';
 
 // Determine current site host (e.g. "example-retailer.com")

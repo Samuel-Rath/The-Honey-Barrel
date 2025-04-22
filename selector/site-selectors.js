@@ -1,5 +1,3 @@
-// selectors/site-selectors.js
-
 /**
  * Map of retailer hostnames to CSS selectors for scraping bottle data.
  * To support a new site, add its hostname and the corresponding selectors below.
