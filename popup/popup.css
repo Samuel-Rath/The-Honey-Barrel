@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 8px;
     width: 360px;
-    font-family: sans‑serif;
+    font-family: sans-serif;
     background: #1e1e1e;
     color: #ffffff;
   }
@@ -45,7 +45,7 @@ body {
   }
   
   .error {
-    colour: #ff6b6b;
+    color: #ff6b6b;
     margin-top: 8px;
   }
   
