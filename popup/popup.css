@@ -1,0 +1,51 @@
+/* Minimal, dark‑themed styling */
+
+body {
+    margin: 0;
+    padding: 8px;
+    width: 360px;
+    font-family: sans‑serif;
+    background: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  h1 {
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+  }
+  
+  .deal-card {
+    display: flex;
+    background: #2c2c2c;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .deal-card img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    margin-right: 8px;
+  }
+  
+  .deal-card .info h2 {
+    margin: 0 0 4px;
+    font-size: 1rem;
+  }
+  
+  .deal-card .info p {
+    margin: 2px 0;
+    font-size: 0.9rem;
+  }
+  
+  .savings {
+    font-weight: bold;
+    color: #6aaa64;
+  }
+  
+  .error {
+    colour: #ff6b6b;
+    margin-top: 8px;
+  }
+  
