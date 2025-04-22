@@ -1,5 +1,5 @@
 {
-    "manifest_version": 3,              // Use the latest manifest version
+    "manifest_version": 3,             
     "name": "BAXUS Price Finder",
     "version": "0.1.0",
     "description": "Compare wine & whisky prices with BAXUS marketplace deals.",
@@ -9,12 +9,12 @@
       "128": "icons/icon128.png"
     },
     "permissions": [
-      "storage",                        // To cache API results & settings
-      "activeTab"                       // To inject content scripts on demand
+      "storage",                      
+      "activeTab"                       
     ],
     "host_permissions": [
-      "https://services.baxus.co/*",    // BAXUS API
-      "*://*.example-retailer.com/*",   // Retailer domains (add each here)
+      "https://services.baxus.co/*",    
+      "*://*.example-retailer.com/*",   
       "*://*.another-retailer.com/*"
     ],
     "background": {
